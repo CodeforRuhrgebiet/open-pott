@@ -11,4 +11,5 @@ Wir wollen visualisieren:
 * Herne
 * Mülheim an der Ruhr
 * Oberhausen
+
 (9 größte Städte im Pott)
