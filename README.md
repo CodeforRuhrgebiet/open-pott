@@ -3,7 +3,6 @@ Wie schaut es mit offenen Daten im Ruhrpott aus?
 
 Wir wollen visualisieren:
 * Bochum
-* Bottrop
 * Dortmund
 * Duisburg
 * Essen
@@ -12,4 +11,4 @@ Wir wollen visualisieren:
 * Mülheim an der Ruhr
 * Oberhausen
 
-(9 größte Städte im Pott)
+(8 größte Städte im Pott)
