@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrzmyr/open-pott.git"
+    "url": "git+https://github.com/CodeforRuhrgebiet/open-pott.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mrzmyr/open-pott/issues"
+    "url": "https://github.com/CodeforRuhrgebiet/open-pott/issues"
   },
-  "homepage": "https://github.com/mrzmyr/open-pott#readme",
+  "homepage": "https://github.com/CodeforRuhrgebiet/open-pott#readme",
   "dependencies": {
   }
 }
