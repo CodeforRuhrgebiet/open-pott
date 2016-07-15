@@ -1,0 +1,21 @@
+{
+  "name": "open-pott",
+  "version": "0.1.0",
+  "description": "Wie schaut es mit offenen Daten im Ruhrpott aus?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrzmyr/open-pott.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrzmyr/open-pott/issues"
+  },
+  "homepage": "https://github.com/mrzmyr/open-pott#readme",
+  "dependencies": {
+  }
+}
