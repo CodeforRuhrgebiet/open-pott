@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Open Data Ruhrgebiet</title>
+
+    <link rel="stylesheet" href="https://npmcdn.com/leaflet@0.7.7/dist/leaflet.css" />
+    <style>
+      html, body, #map {
+        height: 100%;
+        margin:0px;
+        font: 14px/16px Arial, Helvetica, sans-serif;
+      }
+
+      .info {
+        padding: 6px 8px;
+        background: rgba(255,255,255,0.8);
+        box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        border-radius: 5px;
+      }
+
+      .info h4 {
+        margin: 0 0 5px;
+        color: #777;
+      }
+
+      .legend {
+        text-align: left;
+        line-height: 18px;
+        color: #555;
+        background: white;
+      }
+
+      .legend-item {
+        width: 18px;
+        height: 18px;
+        float: left;
+        margin-right: 8px;
+        opacity: 0.7;
+      }
+    </style>
+</head>
+<body onload="init();">
+    <div id="map"></div>
+
+    <script src="https://npmcdn.com/leaflet@0.7.7/dist/leaflet.js"></script>
+    <script src="lib/script.js"></script>
+</body>
+</html>
