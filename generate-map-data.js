@@ -62,7 +62,7 @@ data.features = data.features.filter((city) => {
   let includesCity = allowedCities.indexOf(lowerCaseCity) > -1;
 
   return includesCity;
-});
+})
 
 let newJson = JSON.stringify(data, null, 4);
 
