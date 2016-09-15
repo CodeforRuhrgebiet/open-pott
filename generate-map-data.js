@@ -59,10 +59,15 @@ const allowedCities = [
 
 data.features = data.features.filter((city) => {
   let lowerCaseCity = city.properties.GN.toLowerCase();
-  let includesCity = allowedCities.indexOf(lowerCaseCity) > -1;
 
-  return includesCity;
-})
+  for(var key in city.properties) {
+    if(city.properties[key] == null) {
+      city.properties[key] = "Nein";
+    }
+  }
+
+  return allowedCities.indexOf(lowerCaseCity) > -1;
+});
 
 let newJson = JSON.stringify(data, null, 4);
 
