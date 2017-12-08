@@ -17,5 +17,6 @@
   },
   "homepage": "https://github.com/CodeforRuhrgebiet/open-pott#readme",
   "dependencies": {
+    "http-server": "^0.10.0"
   }
 }

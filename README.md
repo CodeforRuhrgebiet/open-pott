@@ -13,16 +13,22 @@ Wir wollen visualisieren:
 
 (8 größte Städte im Pott)
 
-#### Development
+# Development
 
-```
-npm install
-```
+## Install deps
 
-**Generate Map data**
+`script/setup`
 
-Update allowed cities in `generate-map-data.js` and run:
+## Build
 
-```
-node generate-map-data.js
-```
+* make sure the allowed cities in `generate-map-data.js` are correct and run:
+
+`script/build`
+
+## Preview
+
+The result will be located in the `dist` directory.
+
+# Deployment
+
+Deploys automatically via codeship which runs `script/deploy`.

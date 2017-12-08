@@ -71,4 +71,4 @@ data.features = data.features.filter((city) => {
 
 let newJson = JSON.stringify(data, null, 4);
 
-fs.writeFileSync('./data/map-data.json', newJson);
+fs.writeFileSync('./dist/map-data.json', newJson);

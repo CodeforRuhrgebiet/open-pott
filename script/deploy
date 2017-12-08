@@ -1,0 +1,28 @@
+#!/bin/sh
+
+# script/setup: This build the app and then deploys it.
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+script/setup
+script/build
+
+# deployment instructions here
+DOMAIN=map.openruhr.de
+HOST=cfruhr@uberspace.openruhr.de
+DESTINATION_PATH=/var/www/virtual/cfruhr/$DOMAIN/
+
+# Add domain if not already there
+if ssh -o StrictHostKeyChecking=no -t -t $HOST "uberspace web domain list | grep $DOMAIN"; then
+  echo "Domain already exists"
+else
+  ssh -o StrictHostKeyChecking=no $HOST uberspace web domain add $DOMAIN
+fi
+
+# Copy files
+ssh -o StrictHostKeyChecking=no $HOST mkdir -p $DESTINATION_PATH
+rsync --progress -avce "ssh -o StrictHostKeyChecking=no" ./dist/ $HOST:$DESTINATION_PATH
+
+echo "==> App is deployed!"
