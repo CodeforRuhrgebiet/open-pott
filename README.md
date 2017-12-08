@@ -1,4 +1,4 @@
-# open-pott
+# Open Data Map Ruhrgebiet
 Wie schaut es mit offenen Daten im Ruhrpott aus?
 
 Wir wollen visualisieren:
@@ -15,22 +15,21 @@ Wir wollen visualisieren:
 
 Datenquelle: https://open.nrw/dataset/opendatalandkartenrw
 
-# Development
 
-## Install deps
+## 💻 Setup project
 
 `script/setup`
 
-## Build
+## 🛠 Build
 
-* make sure the allowed cities in `generate-map-data.js` are correct and run:
+Make sure the allowed cities in `generate-map-data.js` are correct and run:
 
 `script/build`
 
-## Preview
+## 👀 Preview
 
-The result will be located in the `dist` directory.
+You can find the result in the `dist` directory.
 
-# Deployment
+## 🚀 Deployment
 
-Deploys automatically via codeship which runs `script/deploy`.
+The deployment is handled by Codeshop (on each push to master). Codeship is simply executing the `deploy` script which you can find in the `script` directory.
