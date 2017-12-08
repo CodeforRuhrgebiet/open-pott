@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Wie schaut es mit offenen Daten im Ruhrpott aus?",
   "main": "index.js",
+  "engines": {
+    "node": "6.11.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +19,5 @@
     "url": "https://github.com/CodeforRuhrgebiet/open-pott/issues"
   },
   "homepage": "https://github.com/CodeforRuhrgebiet/open-pott#readme",
-  "dependencies": {
-    "http-server": "^0.10.0"
-  }
+  "dependencies": {}
 }
