@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# script/setup: This build the app and then deploys it.
+# script/setup: This builds the app and then deploys it.
 
 set -e
 
